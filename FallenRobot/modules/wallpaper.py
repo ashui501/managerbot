@@ -4,11 +4,11 @@ import requests
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from MukeshRobot import pbot
+from FallenRobot import pbot
 
 @pbot.on_message(filters.command(["wall", "wallpaper"]))
 async def wall(_, message: Message):
-    " ғɪxᴇᴅ ᴡᴀʟʟ ʙʏ ᴍᴜᴋᴇsʜ"
+    " ғɪxᴇᴅ ᴡᴀʟʟ ʙʏ akira"
     try:
         text = message.text.split(None, 1)[1]
     except IndexError:

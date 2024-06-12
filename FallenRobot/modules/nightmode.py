@@ -2,12 +2,12 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from telethon import functions, types
 from telethon.tl.types import ChatBannedRights
 from telethon import TelegramClient, events, Button
-from MukeshRobot import (
+from FallenRobot import (
     BOT_NAME,
     BOT_USERNAME)
-from MukeshRobot import telethn as tbot
-from MukeshRobot.events import register
-from MukeshRobot.modules.sql.night_mode_sql import (
+from FallenRobot import telethn as tbot
+from FallenRobot.events import register
+from FallenRobot.modules.sql.night_mode_sql import (
     add_nightmode,
     get_all_chat_id,
     is_nightmode_indb,

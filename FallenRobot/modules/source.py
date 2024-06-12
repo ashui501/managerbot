@@ -17,7 +17,7 @@ async def repo(_, message: Message):
 
 ɪ ᴀᴍ [{BOT_NAME}](https://t.me/{BOT_USERNAME})**
 
-**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ :** ™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍
+**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ :** AKIRA ISHIKKI
 **» ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
 **» ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}` 
 **» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}` 
@@ -29,7 +29,7 @@ async def repo(_, message: Message):
                     InlineKeyboardButton("🌺 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚁 🌺", user_id=OWNER_ID),
                     InlineKeyboardButton(
                         "❄️ 𝙱𝚠𝚊𝚗𝚍𝚊𝚛𝙻𝚘𝚔 ❄️",
-                        url="https://t.me/BWANDARLOK",
+                        url="https://t.me/AKIRA_ISHIKKI",
                     ),
                 ]
             ]

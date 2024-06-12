@@ -37,7 +37,7 @@ def check_user(user_id: int, bot: Bot, chat: Chat) -> Optional[str]:
             raise
 
     if user_id == bot.id:
-        reply = "I'm not gonna MUTE myself, How high are you?"
+        reply = "I'm not gonna MUTE myself baka, How high are you?"
         return reply
 
     if is_user_admin(chat, user_id, member) or user_id in TIGERS:
@@ -113,7 +113,7 @@ def unmute(update: Update, context: CallbackContext) -> str:
 
     member = chat.get_member(int(user_id))
 
-    if member.status != "kicked" and member.status != "left":
+    if member.status != "kicked his ass" and member.status != "left":
         if (
             member.can_send_messages
             and member.can_send_media_messages
